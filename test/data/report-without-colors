@@ -1,1 +1,129 @@
-TODO
+<?xml version="1.0" encoding="UTF-8" ?>
+<results>
+    <testcase external_id="TID-1">
+        <timestamp>2021-02-01 11:20:34</timestamp>
+        <result>p</result>
+        <notes>
+        Automated test passed on:
+        Chrome 41.0.2227 / Mac OS X 10.10.1, Firefox 47 / Mac OS X 10.10.1
+        </notes>
+    </testcase>
+    <testcase external_id="TID-2">
+        <timestamp>2021-02-01 11:20:34</timestamp>
+        <result>f</result>
+        <notes>
+        Automated test failed on:
+        Chrome 41.0.2227 / Mac OS X 10.10.1, Firefox 47 / Mac OS X 10.10.1
+
+        1) undefinedA JavaScript error occurred on "http://example.org".
+           Repeat test actions in the browser and check the console for errors.
+           If you see this error, it means that the tested website caused it. You can fix it or disable tracking JavaScript errors in TestCafe. To do the latter, enable the "--skip-js-errors" option.
+           If this error does not occur, please write a new issue at:
+           "https://github.com/DevExpress/testcafe/issues/new?template=bug-report.md".
+
+           JavaScript error details:
+           Some error
+
+           Browser: Chrome 41.0.2227 / Mac OS X 10.10.1
+           Screenshot: /screenshots/1445437598847/errors
+
+              1 |var createCallsiteRecord = require('callsite-record');
+              2 |
+              3 |function someFunc () {
+            > 4 |    throw new Error('Hey ya!');
+              5 |}
+              6 |
+              7 |try {
+              8 |    someFunc();
+              9 |}
+
+              at someFunc (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/test-callsite.js:4:11)
+              at Object.<anonymous> (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/test-callsite.js:8:5)
+              at Object.<anonymous> (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/reporter-test-calls.js:4:38)
+
+        2) undefinedThe specified selector does not match any element in the DOM tree.
+
+              | one
+            > |   two
+              |   three
+
+           Browser: Firefox 47 / Mac OS X 10.10.1
+
+              1 |var createCallsiteRecord = require('callsite-record');
+              2 |
+              3 |function someFunc () {
+            > 4 |    throw new Error('Hey ya!');
+              5 |}
+              6 |
+              7 |try {
+              8 |    someFunc();
+              9 |}
+
+              at someFunc (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/test-callsite.js:4:11)
+              at Object.<anonymous> (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/test-callsite.js:8:5)
+              at Object.<anonymous> (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/reporter-test-calls.js:4:38)
+        </notes>
+    </testcase>
+    <testcase external_id="TID-3">
+        <timestamp>2021-02-01 11:20:34</timestamp>
+        <result>p</result>
+        <notes>
+        Automated test passed on:
+        Chrome 41.0.2227 / Mac OS X 10.10.1, Firefox 47 / Mac OS X 10.10.1
+        </notes>
+    </testcase>
+    <testcase external_id="TID-4">
+        <timestamp>2021-02-01 11:20:34</timestamp>
+        <result>p</result>
+        <notes>
+        Automated test passed on:
+        Chrome 41.0.2227 / Mac OS X 10.10.1, Firefox 47 / Mac OS X 10.10.1
+        </notes>
+    </testcase>
+    <testcase external_id="TID-5">
+        <timestamp>2021-02-01 11:20:34</timestamp>
+        <result>p</result>
+        <notes>
+        Automated test passed on:
+        Chrome 41.0.2227 / Mac OS X 10.10.1, Firefox 47 / Mac OS X 10.10.1
+        </notes>
+    </testcase>
+    <testcase external_id="TID-6">
+        <timestamp>2021-02-01 11:20:34</timestamp>
+        <result>p</result>
+        <notes>
+        Automated test passed on:
+        Chrome 41.0.2227 / Mac OS X 10.10.1, Firefox 47 / Mac OS X 10.10.1
+        </notes>
+    </testcase>
+    <testcase external_id="TID-7">
+        <timestamp>2021-02-01 11:20:34</timestamp>
+        <result>f</result>
+        <notes>
+        Automated test failed on:
+        Chrome 41.0.2227 / Mac OS X 10.10.1, Firefox 47 / Mac OS X 10.10.1
+
+        1) undefinedThe specified selector does not match any element in the DOM tree.
+
+              | one
+            > |   two
+              |   three
+
+           Browser: Firefox 47 / Mac OS X 10.10.1
+
+              1 |var createCallsiteRecord = require('callsite-record');
+              2 |
+              3 |function someFunc () {
+            > 4 |    throw new Error('Hey ya!');
+              5 |}
+              6 |
+              7 |try {
+              8 |    someFunc();
+              9 |}
+
+              at someFunc (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/test-callsite.js:4:11)
+              at Object.<anonymous> (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/test-callsite.js:8:5)
+              at Object.<anonymous> (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/reporter-test-calls.js:4:38)
+        </notes>
+    </testcase>
+</results>

@@ -38,7 +38,8 @@ module.exports = [
                 durationMs:     74000,
                 unstable:       true,
                 screenshotPath: '/screenshots/1445437598847'
-            }
+            },
+            { test_id: 'TID-1' }
         ]
     },
     {
@@ -72,7 +73,8 @@ module.exports = [
                 durationMs:     74000,
                 unstable:       false,
                 screenshotPath: '/screenshots/1445437598847'
-            }
+            },
+            { test_id: 'TID-2' }
         ]
     },
     {
@@ -84,7 +86,8 @@ module.exports = [
                 durationMs:     74000,
                 unstable:       false,
                 screenshotPath: null
-            }
+            },
+            { test_id: 'TID-3' }
         ]
     },
     {
@@ -103,7 +106,8 @@ module.exports = [
                 durationMs:     74000,
                 unstable:       false,
                 screenshotPath: null
-            }
+            },
+            { test_id: 'TID-4' }
         ]
     },
     {
@@ -115,7 +119,8 @@ module.exports = [
                 durationMs:     74000,
                 unstable:       false,
                 screenshotPath: null
-            }
+            },
+            { test_id: 'TID-5' }
         ]
     },
     {
@@ -128,7 +133,8 @@ module.exports = [
                 unstable:       false,
                 screenshotPath: null,
                 skipped:        false
-            }
+            },
+            { test_id: 'TID-6' },
         ]
     },
     {
@@ -154,11 +160,11 @@ module.exports = [
                         }
                     }
                 ]),
-
                 durationMs:     74000,
                 unstable:       true,
                 screenshotPath: null
-            }
+            },
+            { test_id: 'TID-7' },
         ]
     },
     {
