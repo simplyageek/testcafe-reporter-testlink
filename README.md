@@ -33,7 +33,7 @@ testCafe
 ```
 
 ## Changelog
-v1.0.1 - Added check for skipped tests, so they won't be included in the report
+v1.0.1 - Added check for skipped tests, so they won't be included in the report  
 v1.0.0 - Initial release
 
 ## Author
