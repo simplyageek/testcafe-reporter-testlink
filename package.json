@@ -1,6 +1,6 @@
 {
   "name": "testcafe-reporter-testlink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "testlink TestCafe reporter plugin.",
   "repository": "https://github.com/simplyageek/testcafe-reporter-testlink",
   "author": {

@@ -1,5 +1,4 @@
 # testcafe-reporter-testlink
-[![Build Status](https://travis-ci.org/simplyageek/testcafe-reporter-testlink.svg)](https://travis-ci.org/simplyageek/testcafe-reporter-testlink)
 
 This is the **testlink** reporter plugin for [TestCafe](http://devexpress.github.io/testcafe).
 
@@ -18,7 +17,7 @@ npm install testcafe-reporter-testlink
 When you run tests from the command line, specify the reporter name by using the `--reporter` option:
 
 ```
-testcafe chrome 'path/to/test/file.js' --reporter testlink
+testcafe chrome 'path/to/test/file.js' --reporter testlink:results.xml
 ```
 
 
@@ -32,6 +31,10 @@ testCafe
     .reporter('testlink') // <-
     .run();
 ```
+
+## Changelog
+v1.0.1 - Added check for skipped tests, so they won't be included in the report
+v1.0.0 - Initial release
 
 ## Author
 Beniamin Kis 
