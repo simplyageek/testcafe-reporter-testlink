@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <results>
-    <testcase external_id="TID-1">
-        <timestamp>2021-02-01 11:20:34</timestamp>
-        <result>p</result>
-        <notes>
-        Automated test passed on:
-        Chrome 41.0.2227 / Mac OS X 10.10.1, Firefox 47 / Mac OS X 10.10.1
-        </notes>
-    </testcase>
     <testcase external_id="TID-2">
-        <timestamp>2021-02-01 11:20:34</timestamp>
+        <timestamp>2021-02-04 13:19:39</timestamp>
         <result>f</result>
         <notes>
         Automated test failed on:
         Chrome 41.0.2227 / Mac OS X 10.10.1, Firefox 47 / Mac OS X 10.10.1
-
+        <![CDATA[
         1) undefinedA JavaScript error occurred on "http://example.org".
            Repeat test actions in the browser and check the console for errors.
            If you see this error, it means that the tested website caused it. You can fix it or disable tracking JavaScript errors in TestCafe. To do the latter, enable the "--skip-js-errors" option.
@@ -62,10 +54,11 @@
               at someFunc (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/test-callsite.js:4:11)
               at Object.<anonymous> (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/test-callsite.js:8:5)
               at Object.<anonymous> (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/reporter-test-calls.js:4:38)
+        ]]>
         </notes>
     </testcase>
     <testcase external_id="TID-3">
-        <timestamp>2021-02-01 11:20:34</timestamp>
+        <timestamp>2021-02-04 13:19:39</timestamp>
         <result>p</result>
         <notes>
         Automated test passed on:
@@ -73,7 +66,7 @@
         </notes>
     </testcase>
     <testcase external_id="TID-4">
-        <timestamp>2021-02-01 11:20:34</timestamp>
+        <timestamp>2021-02-04 13:19:39</timestamp>
         <result>p</result>
         <notes>
         Automated test passed on:
@@ -81,7 +74,7 @@
         </notes>
     </testcase>
     <testcase external_id="TID-5">
-        <timestamp>2021-02-01 11:20:34</timestamp>
+        <timestamp>2021-02-04 13:19:39</timestamp>
         <result>p</result>
         <notes>
         Automated test passed on:
@@ -89,7 +82,7 @@
         </notes>
     </testcase>
     <testcase external_id="TID-6">
-        <timestamp>2021-02-01 11:20:34</timestamp>
+        <timestamp>2021-02-04 13:19:39</timestamp>
         <result>p</result>
         <notes>
         Automated test passed on:
@@ -97,12 +90,12 @@
         </notes>
     </testcase>
     <testcase external_id="TID-7">
-        <timestamp>2021-02-01 11:20:34</timestamp>
+        <timestamp>2021-02-04 13:19:39</timestamp>
         <result>f</result>
         <notes>
         Automated test failed on:
         Chrome 41.0.2227 / Mac OS X 10.10.1, Firefox 47 / Mac OS X 10.10.1
-
+        <![CDATA[
         1) undefinedThe specified selector does not match any element in the DOM tree.
 
               | one
@@ -124,6 +117,7 @@
               at someFunc (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/test-callsite.js:4:11)
               at Object.<anonymous> (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/test-callsite.js:8:5)
               at Object.<anonymous> (/Users/beniamin.kis/work/sensia/testlink-reporter/test/utils/reporter-test-calls.js:4:38)
+        ]]>
         </notes>
     </testcase>
 </results>

@@ -37,6 +37,7 @@ module.exports = [
                 errs:           [],
                 durationMs:     74000,
                 unstable:       true,
+                skipped:        true,
                 screenshotPath: '/screenshots/1445437598847'
             },
             { test_id: 'TID-1' }
